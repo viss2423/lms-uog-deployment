@@ -32,7 +32,7 @@ jobs:
           cat > sonar-project.properties << 'EOL'
           sonar.organization=${{ secrets.SONAR_ORGANIZATION }}
           sonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
-          sonar.projectName=LMS System
+          sonar.projectName=vishal2423
           sonar.sources=frontend-react/src,backend-flask
           sonar.tests=frontend-react/src/__tests__,backend-flask/tests
           sonar.exclusions=**/node_modules/**,**/*.test.js,**/*.test.tsx,**/tests/**,**/coverage/**
